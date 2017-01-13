@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
         disconnectButton = (Button) findViewById(R.id.buttonDisconnect);
 
         addressInput = (EditText) findViewById(R.id.address);
+        addressInput.setText("192.168.1.2");
 
         connectButton.setEnabled(true);
         disconnectButton.setEnabled(false);
